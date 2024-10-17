@@ -1,0 +1,48 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+
+.head {
+  /* TODO */
+  animation: jump 1s infinite;
+
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+}
+
+
+.body {
+  /* TODO */
+  animation: jump 1s infinite;
+}
+
+.left.hand {
+  /* TODO */
+  animation: jump 1s infinite;
+}
+
+.right.hand {
+  /* TODO */
+  animation: jump 1s infinite;
+}
+
+.left.foot {
+  /* TODO */
+  animation: jump 1s infinite;
+}
+
+.right.foot {
+  /* TODO */
+  animation: jump 1s infinite;
+}
